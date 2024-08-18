@@ -1,16 +1,4 @@
-pipe1 = pi{
-    a = 0
-    a = a + 1
-    a.pr()
-}pe
-
-pipe2 = pi{
-    b = 10
-    b = b + 20
-    b.pr()
-}pe
-
-pipes = pipe1::pipe2
-
-pipes.splinter.coalesce
+x = 3 + 5 * 2 
+x = x - 4
+echo x
 
